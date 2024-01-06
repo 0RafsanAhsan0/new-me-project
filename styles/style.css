@@ -128,8 +128,9 @@ main {
     font-weight: 500;
     margin-top: 20px;
 }
+
 /* positive mindset styles */
-.positive-mindset{
+.positive-mindset {
     background-image: linear-gradient(90deg, #358f48 0%, rgba(0, 95, 172, 0.00) 100%), url("../images/watch.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,11 +138,15 @@ main {
     margin-bottom: 130px;
     border-radius: 10px;
 }
-.positive-container > h3 {
- color: #ecd81d;
-font-size: 40px;
-font-weight: 700;
+
+.positive-container>h3 {
+    color: #ecd81d;
+    font-size: 40px;
+    font-weight: 700;
 }
-.positive-container > button{
+
+.positive-container>button {
     color: #ecae04;
 }
+
+/* footer styles */

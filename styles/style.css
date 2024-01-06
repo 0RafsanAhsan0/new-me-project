@@ -1,20 +1,22 @@
 /* shared style */
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Work Sans', sans-serif;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
-background: #FFF;
-border: 0;
-padding: 20px 25px;
-color: #005FAC;
-font-size: 20px;
-font-weight: 600;
-margin-top: 32px;
+    background: #FFF;
+    border: 0;
+    padding: 20px 25px;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 32px;
 
 }
 
@@ -51,4 +53,95 @@ header {
     font-size: 16px;
     font-weight: 400;
     margin-top: 24px;
+}
+
+/* mains style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.failure-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 105px;
+    margin-top: 140px;
+}
+
+.failure-list li {
+    list-style: none;
+    padding-bottom: 8px;
+}
+
+.failure-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.failure-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 0;
+}
+
+/* plans styles */
+.plans {
+    margin-top: 120px;
+    margin-bottom: 130px;
+}
+
+.plans>h3 {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgb(114, 28, 71);
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.plans-title {
+    text-align: center;
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.plans-description {
+    text-align: center;
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+/* positive mindset styles */
+.positive-mindset{
+    background-image: linear-gradient(90deg, #358f48 0%, rgba(0, 95, 172, 0.00) 100%), url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 60px;
+    margin-bottom: 130px;
+    border-radius: 10px;
+}
+.positive-container > h3 {
+ color: #ecd81d;
+font-size: 40px;
+font-weight: 700;
+}
+.positive-container > button{
+    color: #ecae04;
 }
